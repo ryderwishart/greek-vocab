@@ -53,7 +53,7 @@ function createFlashcard(cardData, maxFrequency) {
 
     const parseCode = document.createElement('p');
     parseCode.classList.add('flashcard-blur', 'flashcard-reveal');
-    parseCode.textContent = cardData.parse_code;
+    parseCode.textContent = cardData.parseCode;
     card.appendChild(parseCode);
 
     const buttonContainer = document.createElement('div');
