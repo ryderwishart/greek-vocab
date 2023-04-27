@@ -174,9 +174,20 @@ function addEventListeners() {
             targetFlashcard = e.target.parentElement.parentElement;
         }
 
-        if (targetFlashcard) {
+        if (e.target.classList.contains('flashcard-reveal')) {
+            targetFlashcard = e.target;
+        } else if (e.target.parentElement.classList.contains('flashcard-reveal')) {
+            targetFlashcard = e.target.parentElement;
+        } else if (e.target.parentElement.parentElement.classList.contains('flashcard-reveal')) {
+            targetFlashcard = e.target.parentElement.parentElement;
+        }
+
+        if (targetFlashcard && targetFlashcard.classList.contains('flashcard-blur')) {
             targetFlashcard.classList.remove('flashcard-blur');
             targetFlashcard.classList.add('flashcard-reveal');
+        } else if (targetFlashcard && targetFlashcard.classList.contains('flashcard-reveal')) {
+            targetFlashcard.classList.remove('flashcard-reveal');
+            targetFlashcard.classList.add('flashcard-blur');
         }
     });
 
