@@ -10,7 +10,14 @@ body {
 }
 
 #filter-form {
+.container > p {
+  font-size: 0.9rem;
+}
+
   display: flex;
+#filter-form {
+  /* display: flex; */
+  display: none;
   justify-content: center;
   margin-bottom: 20px;
 }
