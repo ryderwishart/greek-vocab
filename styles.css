@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#filter-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#subcorpus-select {
+  margin-right: 10px;
+}
+
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 40px 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.flashcard:hover {
+  transform: translateY(-5px);
+}
+
+.flashcard-blur {
+  filter: blur(4px);
+  cursor: pointer;
+}
+
+.flashcard-reveal {
+  cursor: auto;
+}
+
+.frequency {
+    display: none;
+    position: relative;
+    top: 5px;
+    right: 10px;
+    font-size: 14px;
+  }
+  
+  .norm {
+    font-weight: bold;
+  }
+  

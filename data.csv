@@ -1,0 +1,250 @@
+1,Πέτρος,100,'peter; peter [said]; peter [with that]',NON-MNS
+2,πατρός,100,'father',NON-MGS
+3,κυρίῳ,99,'lord; master; to [the] lord; [my] lord; for [the] lord',NON-MDS
+4,ἀνθρώπων,99,'men; of men; among men; man; than men',NON-MGP
+5,ἥν,98,'which; that; whatever; whom; that which',PRO-FAS
+6,πνεύματος,95,'spirit; of [the] spirit; [of the] spirit; with [the] spirit; in spirit',NON-NGS
+7,ἦσαν,95,'were; they were; there were; they had been; existed',VRB-ImAInd3P
+8,ὀνόματι,95,'name; named; by name',NON-NDS
+9,ἐνώπιον,94,'before; in the presence; in presence; in the presence of; in the sight of',PAR
+10,πίστεως,93,'faith; of faith',NON-FGS
+11,πατέρα,93,'father; [as] father',NON-MAS
+12,οὐρανοῦ,92,'heaven; air; of heaven; sky',NON-MGS
+13,πάντας,91,'all; all [men]; all those; everyone; on all',ADJ-MAP
+14,πνεύματι,91,'spirit; in spirit; by [the] spirit; in [the] spirit; breath',NON-NDS
+15,τούτῳ,89,'this; by this; him; that; these things',PRO-NDS | PRO-MDS
+16,ἦλθε(ν),89,'came; he came; has come; he went; she came',VRB-AoAInd3S
+17,πᾶσι(ν),88,'to all; all; among all; [to] all; all [is]',ADJ-MDP | ADJ-NDP
+18,αὐτοί,86,'they; themselves; yourselves; you yourselves; ourselves',PRO-MNP
+19,ἡμέρᾳ,84,'day; daytime; day [is]; days',NON-FDS
+20,πολλοί,83,'many; great; many [of you]',ADJ-MNP
+21,ὥστε,83,'so that; therefore; so as; so as for; so then',PAR
+22,μᾶλλον,81,'more; rather; all the more; especially; even more',PAR
+23,ὅπου,81,'where; wherever; for wherever; to the place; to where',PAR | PAR
+24,ὧν,80,'that; of which; which; of what; [the things] of which',PRO-NGP | PRO-MGP | PRO-FGP
+25,Παῦλος,79,'paul; paul [said]',NON-MNS
+26,ἔλεγον,78,'were saying; they were saying; began saying; kept saying; kept telling',VRB-ImAInd3P | VRB-ImAInd1S
+27,δεῖ,77,'it behooves; it is necessary; it is necessary for; it behooves [you]; it behooves [me]',VRB-PrAInd3S
+28,γῆν,76,'earth; land; ground; soil; an earth',NON-FAS
+29,νεκρῶν,76,'dead; of [the] dead; [from the] dead; from [the] dead; dead',ADJ-MGP | ADJ-NGP
+30,τινές,76,'some; certain; any; certain ones; some [of]',PRO-MNP | PRO-FNP
+31,ἐποίησε(ν),75,'did; he did; had done; made; has done',VRB-AoAInd3S
+32,μόνον,73,'only; only [so]; [consisting] only; alone; but',ADJ-NAS | ADJ-MAS | PAR
+33,οὗτοι,73,'these; they; [are] these; it; themselves',PRO-MNP
+34,Ἀβραάμ,73,'of abraham; abraham; abraham’s; abraham; to abraham',NON-MGS | NON-MNS | NON-MDS | NON-MAS | NON-MVS
+35,τούτων,72,'these things; of these things; these; of these; than these',PRO-NGP | PRO-MGP | PRO-FGP
+36,κόσμου,71,'world; of [the] world; [of the] world; earth',NON-MGS
+37,ἕν,70,'one; one thing; [are] one; [this] one; one [thing]',ADJ-NNS | ADJ-NAS
+38,γέγραπται,67,'it has been written; has it been written; has been written; have been written; it is written',VRB-PfPInd3S
+39,κύριον,67,'lord; master; [as] lord',NON-MAS
+40,ἀλλήλους,67,'one another; each other; themselves; to one another',PRO-MAP
+41,Χριστόν,65,'christ; christ's',NON-MAS
+42,εἴτε,65,'or; whether; if; or [the]; or if',PAR
+43,πρῶτον,65,'first; at first; before; chiefly; first',ADJ-NAS | ADJ-MAS | ADJ-NNS | PAR
+44,ἑαυτούς,65,'themselves; yourselves; ourselves; each other; other',PRO-MAP
+45,τέκνα,63,'children; sons; children; children',NON-NAP | NON-NNP | NON-NVP
+46,ἄνδρες,63,'men; husbands; men; brothers',NON-MNP | NON-MVP
+47,χάρις,61,'grace; grace [be]; credit; thanks [be]; [be] thanks',NON-FNS
+48,βασιλείαν,60,'kingdom; kingship',NON-FAS
+49,ζωήν,60,'life; [is] life',NON-FAS
+50,οἵτινες,60,'who; which; such as; those; those who',PRO-MNP
+51,ἤδη,60,'already; now; already [it is]',PAR
+52,παντί,59,'to everyone; every; all; to all; everyone',ADJ-MDS | ADJ-NDS
+53,δόξαν,58,'glory',NON-FAS
+54,πίστει,58,'faith; by faith; in faith; [by] faith; in the faith',NON-FDS
+55,ἁμαρτίας,58,'sin; of sin; from sin; sins',NON-FGS | NON-FAP
+56,ἔργα,58,'works; deeds; works; deeds',NON-NAP | NON-NNP
+57,ἡμέραν,58,'day; [another] day; [is] day; day [alike]',NON-FAS
+58,καρδίας,57,'heart; of heart; of [the] heart; of his heart; hearts',NON-FGS | NON-FAP
+59,μηδέ,57,'nor; neither; not; and not; nor [anything]',PAR | PAR
+60,ὅσα,57,'whatever; as many as; how much; all that; as much as',PRO-NAP | PRO-NNP
+61,αὐτά,56,'them; themselves; these things; in those things; them [yourself]',PRO-NAP | ADJ-NAP | PRO-NNP
+62,πᾶσαν,56,'all; every; any',ADJ-FAS
+63,πίστιν,55,'faith; faithfulness; fidelity',NON-FAS
+64,διό,53,'therefore; so then',PAR
+65,ταύτην,53,'this',PRO-FAS
+66,ὅπως,53,'so that; that; how; that',PAR | PAR
+67,οὕς,52,'whom; some; which; those whom; that',PRO-MAP
+68,χάριν,51,'grace; favor; thankful; blessing of grace; bounty',NON-FAS | PAR
+69,ὁδόν,51,'way; road; journey; [their] way; path',NON-FAS
+70,ἑαυτοῖς,50,'themselves; yourselves; to yourselves; for themselves; ourselves',PRO-MDP
+71,ἡμέραις,49,'days; years',NON-FDP
+72,ἧς,49,'which; that; of which; whom; of whom',PRO-FGS
+73,δόξης,48,'glory; of glory; of [the] glory; brightness; glorious',NON-FGS
+74,φῶς,48,'light; light; fire; in light',NON-NNS | NON-NAS
+75,ζωῆς,47,'of life; life; living; of a life',NON-FGS
+76,ποῦ,47,'where; where [the]; [place] where; are where; what',PAR
+77,πρό,47,'before; before [the]; above; ago; just outside',PAR
+78,οἷς,46,'to whom; whom; for whom; to one; to them',PRO-MDP | PRO-NDP
+79,οὐαί,46,'woe; but woe; woe [to him]; woe to; woe to you',PAR | PAR
+80,ποιῆσαι,46,'to do; to make; to act; to produce; doing',VRB-AoAInf
+81,πᾶσα,46,'all; every; any',ADJ-FNS
+82,ἅγιον,46,'holy; holy [is]; holy [one]; holy; holy',ADJ-NNS | ADJ-NAS | ADJ-MAS
+83,ἔχοντες,46,'having; being; [those] having; keeping; we are having',VRB-PrAParMNP
+84,αἰώνιον,45,'eternal; eternal; an eternal; everlasting; eternal',ADJ-FAS | ADJ-NAS | ADJ-MAS | ADJ-NNS
+85,λόγῳ,45,'word; speech; in word; by [the] word; by a word',NON-MDS
+86,πάσῃ,45,'all; every; complete; conscience; in all',ADJ-FDS
+87,τινά,45,'any; anyone; certain; someone; one',PRO-MAS | PRO-FAS | PRO-NAP | PRO-NNP
+88,ἐθνῶν,45,'gentiles; nations; of [the] gentiles; of gentiles; of the gentiles',NON-NGP
+89,λαόν,44,'people',NON-MAS
+90,οὐρανόν,43,'heaven; sky',NON-MAS
+91,πρόσωπον,43,'face; appearance; [his] face; [any] person; face',NON-NAS | NON-NNS
+92,ἀδελφός,43,'brother',NON-MNS
+93,ἀληθείας,43,'truth; of truth; of [the] truth',NON-FGS
+94,ἔχομεν,43,'we have; have we; have',VRB-PrAInd1P
+95,πάσης,42,'all; of all; every; of full; over all',ADJ-FGS
+96,ἁγίου,42,'holy; holy; holy [one]',ADJ-NGS | ADJ-MGS
+97,ἔργων,42,'works; deeds; of works',NON-NGP
+98,ἑαυτῶν,41,'of themselves; of them; their own; them; you',PRO-MGP | PRO-FGP | PRO-NGP
+99,ἰδόντες,41,'having seen; having seen [it]; having seen [them]; they had seen',VRB-AoAParMNP
+100,θέλημα,40,'will; will; [his] will; [is the] will',NON-NAS | NON-NNS
+101,λαβών,40,'having taken; having received; having procured; having received [it]; having taken [it]',VRB-AoAParMNS
+102,φωνήν,40,'voice; [their] voice; sound; [her] voice; tone',NON-FAS
+103,ψυχήν,40,'life; soul; in [his] soul',NON-FAS
+104,εἰρήνη,39,'peace; peace [be]',NON-FNS
+105,σαρκί,39,'flesh; in [the] flesh; [in the] flesh; with flesh',NON-FDS
+106,ἁγίων,38,'saints; holy; of saints; of the saints; saints’',ADJ-MGP | ADJ-NGP
+107,ἔργον,38,'work; deed; work',NON-NAS | NON-NNS
+108,ἕκαστος,38,'each; each one; each [of them]; each man; every one',ADJ-MNS
+109,ἰδεῖν,38,'to see; saw',VRB-AoAInf
+110,σάρκα,37,'flesh; flesh [were]',NON-FAS
+111,σαρκός,37,'flesh; of flesh; of [the] flesh; [of the] flesh',NON-FGS
+112,ὀφθαλμούς,37,'eyes; gaze',NON-MAP
+113,ᾗ,37,'which; that; in which; in that; whose',PRO-FDS
+114,δικαιοσύνην,36,'righteousness; justice',NON-FAS
+115,καλῶς,36,'well; rightly; good; correctly; honorably',PAR
+116,κόσμῳ,36,'world; [to the] world; in this world',NON-MDS
+117,οὐρανοῖς,36,'heavens',NON-MDP
+118,σώματος,36,'body; of [the] body',NON-NGS
+119,ἀγάπη,36,'love; love [be]; love [is]',NON-FNS
+120,ἄρτι,36,'now; presently; at present; now [though]; present',PAR
+121,δοῦλος,35,'servant; slave; [being] a slave; slave [being]',NON-MNS
+122,δόξα,35,'glory; [be] glory',NON-FNS
+123,ὀπίσω,35,'after; behind; behind; back; around',PAR | PAR
+124,οἵ,34,'who; [they]; that; they who; those',PRO-MNP | ART-MNP
+125,παντός,34,'all; everything; every; everyone; always',ADJ-MGS | ADJ-NGS
+126,ποιεῖτε,34,'you are doing; you do; are you doing; do you; are doing',VRB-PrAInd2P | VRB-PrAImp2P
+127,αἵματος,33,'blood; of blood; from blood; of [the] blood',NON-NGS
+128,δύναμιν,33,'power; [their] ability; ability; work of power',NON-FAS
+129,πατρί,33,'father; to father',NON-MDS
+130,τέλος,33,'end; outcome; an end; revenue; utmost',NON-NAS | NON-NNS
+131,φωνῇ,33,'in a voice; voice; to a voice',NON-FDS
+132,ἀγάπην,33,'love',NON-FAS
+133,ἀγαθόν,33,'good; [is] good; good [thing]; good; [is] good',ADJ-NAS | ADJ-NNS | ADJ-MAS
+134,κόσμος,32,'world; adorning',NON-MNS
+135,προφητῶν,32,'prophets; of prophets',NON-MGP
+136,ἔθνεσι(ν),32,'gentiles; nations; pagans; to gentiles',NON-NDP
+137,αἰῶνα,31,'age',NON-MAS
+138,γέγονε(ν),31,'has become; has been; has; has come; has come into being',VRB-PfAInd3S
+139,ἀγγέλων,31,'angels; of angels; messengers',NON-MGP
+140,ἀνθρώπους,31,'men; of men; others',NON-MAP
+141,ἁμαρτιῶν,31,'of sins; sins; of [the] sins',NON-FGP
+142,ἔσονται,31,'will be; there will be; they will be; will become; will be [in]',VRB-FuMInd3P
+143,ὁμοίως,31,'likewise',PAR
+144,χεῖρα,30,'hand; [his] hand',NON-FAS
+145,ἀγαπητοί,30,'beloved; beloved',ADJ-MVP | ADJ-MNP
+146,ἀληθείᾳ,30,'truth; in truth',NON-FDS
+147,ἔχειν,30,'to have; having; to be; have; to [let him] have',VRB-PrAInf
+148,αἰῶνας,29,'ages; universe',NON-MAP
+149,δικαιοσύνης,29,'of righteousness; righteousness; righteousness [that is]',NON-FGS
+150,θαλάσσης,29,'sea; of [the] sea',NON-FGS
+151,κεφαλήν,29,'head; chief; [to be] head',NON-FAS
+152,ποτέ,29,'once; at any time; formerly; at last; ever',PAR | PAR
+153,πυρός,29,'of fire; fire',NON-NGS
+154,ἔτη,29,'years; years [old]; years',NON-NAP | NON-NNP
+155,αἰώνων,28,'ages; of ages',NON-MGP
+156,λόγου,28,'word; of [the] word; account; in [the] word; in talk',NON-MGS
+157,μένει,28,'abides; he abides; remains; abide; he remains',VRB-PrAInd3S
+158,στόμα,28,'mouth; mouth',NON-NAS | NON-NNS
+159,ἀγάπῃ,28,'love; in love',NON-FDS
+160,ἄνθρωποι,28,'men; fleshly; people',NON-MNP
+161,χάριτος,27,'grace; of grace; of [the] grace',NON-FGS
+162,χρόνον,27,'time; for a period; for a time; while',NON-MAS
+163,ἁμαρτίαν,27,'sin',NON-FAS
+164,γίνεται,26,'becomes; takes place; there is; it becomes; it happens',VRB-PrMInd3S
+165,δυνάμει,26,'power; with power; [with] power; full strength',NON-FDS
+166,λαῷ,26,'people; our people',NON-MDS
+167,μακάριοι,26,'blessed [are]; blessed; [you are] blessed',ADJ-MNP
+168,προφήτου,26,'prophet; of a prophet; than a prophet',NON-MGS
+169,πρόβατα,26,'sheep; sheep',NON-NAP | NON-NNP
+170,σάρξ,26,'flesh; flesh [is]',NON-FNS
+171,ἀρχῆς,26,'beginning; principality; rule',NON-FGS
+172,ἁγίῳ,26,'holy; with holy; holy',ADJ-NDS | ADJ-MDS
+173,ὄντες,26,'being; were; they were',VRB-PrAParMNP
+174,αἰῶνος,25,'age; eternity; of eternity; of the age; of this age',NON-MGS
+175,εἰρήνην,25,'peace',NON-FAS
+176,λίθον,25,'stone',NON-MAS
+177,πλῆθος,25,'multitude; crowd; multitude; number; quantity',NON-NNS | NON-NAS
+178,σώματι,25,'body; in body',NON-NDS
+179,γῆ,24,'earth; land; ground; land',NON-FNS | NON-FVS
+180,καιρῷ,24,'time; season; [due] time; [in the] season; due time',NON-MDS
+181,κακόν,24,'evil; [it is] wrong; harm; injury; of wrongs',ADJ-NAS | ADJ-NNS
+182,λαός,24,'people',NON-MNS
+183,πατέρες,24,'fathers; patriarchs; fathers',NON-MNP | NON-MVP
+184,πιστεύων,24,'believing',VRB-PrAParMNS
+185,τίνα,24,'whom; which; what; what; what',PRO-MAS | PRO-FAS | PRO-NNP
+186,τινάς,24,'some; certain; [for] any; any; certain ones',PRO-MAP | PRO-FAP
+187,ἀσπάσασθε,24,'greet',VRB-AoMImp2P
+188,ἰδίαν,24,'own; private; themselves; himself; his own',ADJ-FAS
+189,Μωϋσέως,23,'of moses; moses; moses’',NON-MGS
+190,διότι,23,'because; therefore; for',PAR
+191,δόξῃ,23,'glory; with glory; [in] glory; should think; will think',NON-FDS | VRB-AoASub3S
+192,εἰδότες,23,'knowing',VRB-PfAParMNP
+193,πολύ,23,'much; great; greatly; long; loudly',ADJ-NAS | ADJ-NNS
+194,φωνῆς,23,'voice; sound',NON-FGS
+195,χάριτι,23,'grace; by grace; [by the] grace; in favor; with thankfulness',NON-FDS
+196,ἄγγελοι,23,'angels',NON-MNP
+197,ἐπαγγελίας,23,'promise; of promise; of [the] promise; of the promise; promises',NON-FGS | NON-FAP
+198,ἡμέρα,23,'day; [is the] day',NON-FNS
+199,ὁδῷ,23,'way; road',NON-FDS
+200,δοῦλοι,22,'servants; slaves; [as] slaves; servants of',NON-MNP
+201,εἰδώς,22,'knowing; having known; having knowledge of',VRB-PfAParMNS
+202,λαλῆσαι,22,'to speak; speaking; spoke; to declare; to say',VRB-AoAInf
+203,οἶδε(ν),22,'knows; [then] knows; does he know; has known; he knows',VRB-PfAInd3S
+204,ἀντί,22,'for; in place of; in return for; instead; because of',PAR
+205,ἀποστόλων,22,'apostles',NON-MGP
+206,ἐκείνου,22,'that; his; of that; same; by that',PRO-MGS | PRO-NGS
+207,ἡμερῶν,22,'days; of days',NON-FGP
+208,Ἰούδας,22,'judas; judah; judas [son]; jude; of judas',NON-MNS
+209,ὕδατος,22,'water; of water; in water; with water',NON-NGS
+210,ῥῆμα,22,'word; saying; declaration; word; matter',NON-NAS | NON-NNS
+211,δυνάμεως,21,'power; of power; mighty',NON-FGS
+212,καιρόν,21,'time; opportunity; season; occasion',NON-MAS
+213,καρδίαις,21,'hearts; in heart; minds; of hearts',NON-FDP
+214,κρίμα,21,'judgment; condemnation; punishment; judgment; condemnation',NON-NAS | NON-NNS
+215,μηκέτι,21,'no longer; no more',PAR
+216,προφῆται,21,'prophets; prophets [were]',NON-MNP
+217,ἔλαβε(ν),21,'took; received; seized; did take [it]; has received',VRB-AoAInd3S
+218,αἵματι,20,'blood; in blood; to [the] blood',NON-NDS
+219,αὐταῖς,20,'them; to them; these; their own; these [women]',PRO-FDP | ADJ-FDP
+220,δίκαιος,20,'righteous; [is] righteous; [was] righteous; just; righteous [man]',ADJ-MNS
+221,παρακαλῶ,20,'i exhort; i exhort [you]; exhort; i implore',VRB-PrAInd1S
+222,σωτηρίας,20,'of salvation; salvation; preservation',NON-FGS
+223,ἀγγέλους,20,'angels; messengers',NON-MAP
+224,ἔλεος,20,'mercy; compassion; mercy',NON-NAS | NON-NNS
+225,νεκρούς,19,'dead',ADJ-MAP
+226,τιμήν,19,'honor; price',NON-FAS
+227,τούτοις,19,'these; these things; them; with these; in these',PRO-NDP | PRO-MDP
+228,ἁγίοις,19,'saints; holy; to saints',ADJ-MDP
+229,ἔγραψα,19,'i have written; i wrote; have i written; did i write; did write',VRB-AoAInd1S
+230,ἦτε,19,'you were; you used to be; you may be; be; may be',VRB-ImAInd2P | VRB-PrASub2P
+231,δίκαιον,18,'righteous; righteous one; just; upright; right',ADJ-MAS | ADJ-NNS | ADJ-NAS
+232,καρδίαν,18,'heart; mind',NON-FAS
+233,λαλεῖ,18,'speaks; he speaks; does speak; he is saying; he says',VRB-PrAInd3S
+234,μισθόν,18,'reward; [as the] wage; wages',NON-MAS
+235,οἶκος,18,'house; household; as a house; o house',NON-MNS | NON-MVS
+236,σωτηρίαν,18,'salvation; [as] salvation; deliverance',NON-FAS
+237,ἀγάπης,18,'love; of love; beloved; to love',NON-FGS
+238,ἀπόστολος,18,'an apostle; apostle',NON-MNS
+239,ἐλπίδα,18,'hope',NON-FAS
+240,ἔθνος,18,'nation; people; nation',NON-NAS | NON-NNS
+241,ἴδιον,18,'own; his own; its own; own; his own',ADJ-NAS | ADJ-MAS
+242,βάπτισμα,17,'baptism; baptism',NON-NAS | NON-NNS
+243,καιρός,17,'time; season; [is the] time; time [for]',NON-MNS
+244,μία,17,'one; first',ADJ-FNS
+245,παρέδωκε(ν),17,'gave up; delivered; he delivered; betrayed; delivered [them]',VRB-AoAInd3S
+246,φυλακῇ,17,'prison; watch; time of night',NON-FDS
+247,ἀδελφοῦ,17,'brother; [his] brother',NON-MGS
+248,ἀναστάσεως,17,'resurrection; of [the] resurrection',NON-FGS
+249,ὅσον,17,'as long as; long as; very; while; as much as',PRO-MAS | PRO-NAS | PRO-NNS
+250,ὦτα,17,'ears; ears',NON-NAP | NON-NNP
