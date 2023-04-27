@@ -4,17 +4,46 @@ body {
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 95vw;
+  margin: auto;
   padding: 20px;
 }
 
-#filter-form {
 .container > p {
   font-size: 0.9rem;
 }
 
+/* .flashcards-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+.masonry-layout {
+  column-count: 3;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-gap: 1rem;
+  -webkit-column-gap: 1rem;
+  -moz-column-gap: 1rem;
+}
+
+.masonry-layout-panel {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+}
+
+@media (max-width: 767px) {
+  .masonry-layout {
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+  }
+}
+
 #filter-form {
   /* display: flex; */
   display: none;
@@ -33,7 +62,7 @@ body {
   justify-content: center;
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   /* width: 200px; */
   /* height: 100px; */
   max-height: max-content;
@@ -41,6 +70,7 @@ body {
   padding: 40px 20px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
+  transform-origin: top left;
 }
 
 .flashcard:hover {

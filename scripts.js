@@ -8,7 +8,11 @@ function fetchAndDisplayData(filename) {
         .then(response => response.text())
         .then(text => {
             const data = parseCSV(text);
-            displayFlashcards(data);
+
+            // Find the maximum frequency value
+            const maxFrequency = data.reduce((max, curr) => Math.max(max, curr.freq), 0);
+
+            displayFlashcards(data, maxFrequency);
         })
         .catch(error => console.error(error));
 }
@@ -20,30 +24,15 @@ function parseCSV(text) {
     });
 }
 
-function displayFlashcards(data) {
+function displayFlashcards(data, maxFrequency) {
     const container = document.getElementById('flashcards-container');
     data.forEach(flashcardData => {
-        const flashcard = createFlashcard(flashcardData);
+        const flashcard = createFlashcard(flashcardData, maxFrequency);
         container.appendChild(flashcard);
     });
 }
 
-// function createFlashcard({ norm, glosses, parseCode }) {
-//     const flashcard = document.createElement('div');
-//     flashcard.classList.add('flashcard', 'flashcard-blur');
-
-//     const front = document.createElement('div');
-//     front.textContent = norm;
-//     flashcard.appendChild(front);
-
-//     const back = document.createElement('div');
-//     back.innerHTML = `${glosses}<br>${parseCode}`;
-//     flashcard.appendChild(back);
-
-//     return flashcard;
-// }
-
-function createFlashcard(cardData) {
+function createFlashcard(cardData, maxFrequency) {
     const card = document.createElement('div');
     card.classList.add('flashcard');
 
@@ -151,7 +140,18 @@ function createFlashcard(cardData) {
         setColor('no-color');
     });
 
-    return card;
+    // Calculate the size factor for the card based on its frequency
+    const sizeFactor = 0.5 + (cardData.freq / maxFrequency) * 0.5;
+
+    
+    const panel = document.createElement('div');
+    panel.classList.add('masonry-layout-panel');
+    const panelContent = document.createElement('div');
+    panelContent.classList.add('masonry-layout-panel-content');
+
+    panelContent.appendChild(card);
+    panel.appendChild(panelContent);
+    return panel;
 }
 
 
