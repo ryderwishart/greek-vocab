@@ -59,6 +59,7 @@ body {
 
 .norm {
   font-weight: bold;
+  cursor: pointer;
 }
 
 .button-container {
@@ -98,4 +99,19 @@ body {
 .red {
   background-color: #ffb3b3;
   border: 3px solid #ffb3b3;
+}
+
+.flashcard.collapsed .flashcard-blur,
+.flashcard.collapsed .flashcard-reveal,
+.flashcard.collapsed .btn-container,
+.flashcard.collapsed .button-container {
+  display: none;
+}
+
+.flashcard.collapsed .norm {
+  cursor: pointer;
+}
+
+.flashcard.collapsed {
+  padding: 5px;
 }

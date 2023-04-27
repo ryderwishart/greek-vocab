@@ -109,10 +109,25 @@ function createFlashcard(cardData) {
     card.appendChild(buttonContainer);
 
     // Load color from local storage if available
+    // Load color and collapsed state from local storage if available
     const storedColor = localStorage.getItem(`card-${cardData.id}-color`);
+    const storedCollapsed = localStorage.getItem(`card-${cardData.id}-collapsed`);
+
     if (storedColor) {
         card.classList.add(storedColor);
     }
+
+    if (storedCollapsed === 'true') {
+        card.classList.add('collapsed');
+    }
+
+    // Toggle collapsed state
+    const toggleCollapsed = () => {
+        card.classList.toggle('collapsed');
+        localStorage.setItem(`card-${cardData.id}-collapsed`, card.classList.contains('collapsed'));
+    };
+
+    norm.addEventListener('click', toggleCollapsed);
 
     const setColor = (color) => {
         card.classList.remove('green', 'yellow', 'red', 'no-color');
