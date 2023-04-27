@@ -97,7 +97,44 @@ function createFlashcard(cardData) {
     });
     buttonContainer.appendChild(redButton);
 
+    // no color button
+    const noColorButton = document.createElement('button');
+    noColorButton.classList.add('flag-button', 'no-color');
+    // noColorButton.textContent = 'No Color';
+    noColorButton.addEventListener('click', () => {
+        card.classList.remove('green', 'yellow', 'red');
+    });
+    buttonContainer.appendChild(noColorButton);
+
     card.appendChild(buttonContainer);
+
+    // Load color from local storage if available
+    const storedColor = localStorage.getItem(`card-${cardData.id}-color`);
+    if (storedColor) {
+        card.classList.add(storedColor);
+    }
+
+    const setColor = (color) => {
+        card.classList.remove('green', 'yellow', 'red', 'no-color');
+        card.classList.add(color);
+        localStorage.setItem(`card-${cardData.id}-color`, color);
+    };
+
+    greenButton.addEventListener('click', () => {
+        setColor('green');
+    });
+
+    yellowButton.addEventListener('click', () => {
+        setColor('yellow');
+    });
+
+    redButton.addEventListener('click', () => {
+        setColor('red');
+    });
+
+    noColorButton.addEventListener('click', () => {
+        setColor('no-color');
+    });
 
     return card;
 }
