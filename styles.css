@@ -27,8 +27,9 @@ body {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 200px;
-  height: 100px;
+  /* width: 200px; */
+  /* height: 100px; */
+  max-height: max-content;
   margin: 20px auto;
   padding: 40px 20px;
   text-align: center;
@@ -49,14 +50,47 @@ body {
 }
 
 .frequency {
-    display: none;
-    position: relative;
-    top: 5px;
-    right: 10px;
-    font-size: 14px;
-  }
-  
-  .norm {
-    font-weight: bold;
-  }
-  
+  display: none;
+  position: relative;
+  top: 5px;
+  right: 10px;
+  font-size: 14px;
+}
+
+.norm {
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.flag-button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.flag-button:hover {
+  background-color: #f5f5f5;
+}
+
+.green {
+  background-color: #b3f7b3;
+  border: 3px solid #b3f7b3;
+}
+
+.yellow {
+  background-color: #ffffb3;
+  border: 3px solid #ffffb3;
+}
+
+.red {
+  background-color: #ffb3b3;
+  border: 3px solid #ffb3b3;
+}

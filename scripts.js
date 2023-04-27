@@ -46,32 +46,62 @@ function displayFlashcards(data) {
 function createFlashcard(cardData) {
     const card = document.createElement('div');
     card.classList.add('flashcard');
-  
+
     const frequency = document.createElement('span');
     frequency.classList.add('frequency');
     frequency.textContent = `Frequency: ${cardData.freq}`;
     card.appendChild(frequency);
-    // set frequency to display none 
-    
-  
+
     const norm = document.createElement('p');
     norm.classList.add('norm');
     norm.textContent = cardData.norm + ' (' + cardData.freq + 'x)';
     card.appendChild(norm);
-  
+
     const glosses = document.createElement('p');
     glosses.classList.add('flashcard-blur', 'flashcard-reveal');
     glosses.textContent = cardData.glosses;
     card.appendChild(glosses);
-  
+
     const parseCode = document.createElement('p');
     parseCode.classList.add('flashcard-blur', 'flashcard-reveal');
     parseCode.textContent = cardData.parse_code;
     card.appendChild(parseCode);
-  
+
+    const buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('button-container');
+
+    const greenButton = document.createElement('button');
+    greenButton.classList.add('flag-button', 'green');
+    // greenButton.textContent = 'Green';
+    greenButton.addEventListener('click', () => {
+        card.classList.remove('yellow', 'red');
+        card.classList.add('green');
+    });
+    buttonContainer.appendChild(greenButton);
+
+    const yellowButton = document.createElement('button');
+    yellowButton.classList.add('flag-button', 'yellow');
+    // yellowButton.textContent = 'Yellow';
+    yellowButton.addEventListener('click', () => {
+        card.classList.remove('green', 'red');
+        card.classList.add('yellow');
+    });
+    buttonContainer.appendChild(yellowButton);
+
+    const redButton = document.createElement('button');
+    redButton.classList.add('flag-button', 'red');
+    // redButton.textContent = 'Red';
+    redButton.addEventListener('click', () => {
+        card.classList.remove('green', 'yellow');
+        card.classList.add('red');
+    });
+    buttonContainer.appendChild(redButton);
+
+    card.appendChild(buttonContainer);
+
     return card;
-  }
-  
+}
+
 
 function addEventListeners() {
     const filterForm = document.getElementById('filter-form');
